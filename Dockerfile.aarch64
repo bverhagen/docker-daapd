@@ -72,7 +72,7 @@ RUN \
  fi && \
  curl -o \
  /tmp/source/owntone.tar.gz -L \
-	"https://github.com/chme/forked-daapd/archive/092bf20a5c57123e483e0ab4146131bfda0c123f.tar.gz" && \
+	"https://github.com/owntone/owntone-server/archive/refs/heads/master.tar.gz" && \
  tar xf /tmp/source/owntone.tar.gz -C \
 	/tmp/source/owntone --strip-components=1 && \
  export PATH="/tmp/source:$PATH" && \
